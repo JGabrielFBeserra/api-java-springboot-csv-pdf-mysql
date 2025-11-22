@@ -4,6 +4,7 @@ package com.atvsistemasoperacionais.Services;
 import com.atvsistemasoperacionais.DTOs.UsuarioCreateDTO;
 import com.atvsistemasoperacionais.entities.Usuario;
 import com.atvsistemasoperacionais.repositorys.UsuarioRepository;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,9 +14,10 @@ public class UsuarioService {
     @Autowired
     private UsuarioRepository repository;
 
+    @Transactional
     public Usuario cadastrarUsuario(UsuarioCreateDTO dados) {
         var usuario = new Usuario(dados);
-
+        repository.save(usuario);
         return usuario;
     }
 }
