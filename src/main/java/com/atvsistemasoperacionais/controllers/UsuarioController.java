@@ -1,11 +1,9 @@
 package com.atvsistemasoperacionais.controllers;
 
-import com.atvsistemasoperacionais.DTOs.UsuarioCreateDTO;
+import com.atvsistemasoperacionais.DTOs.AllDataCreateDTO;
 import com.atvsistemasoperacionais.Services.UsuarioService;
-import com.atvsistemasoperacionais.entities.Usuario;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,13 +14,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class UsuarioController {
 
     @Autowired
-    private UsuarioService service;
+    private UsuarioService serviceUsuario;
+
+
+
 
     @PostMapping
-    public ResponseEntity<Usuario> cadastarUsuario(@RequestBody @Valid UsuarioCreateDTO dados) {
-        var usuario = service.cadastrarUsuario(dados);
+    public void cadastarUsuario(@RequestBody @Valid AllDataCreateDTO dados) {
+        var usuario = serviceUsuario.cadastrarUsuario(dados);
+        System.out.println("Sucesso");
 
-        return ResponseEntity.ok(usuario);
+
 
     }
 }
