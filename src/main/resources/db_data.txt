@@ -1,0 +1,70 @@
+{
+  "nome": "Juliana Mendes",
+  "email": "juliana.mendes@alphasoft.com",
+  "senha": "SenhaSegura!452",
+  "cpf": "123.456.789-10",
+  "rg": "45.987.321-0",
+  "uf": "SP",
+  "cidade": "Campinas",
+  "bairro": "Taquaral",
+  "numero": "120",
+  "cep": "13075-240",
+  "complemento": "Bloco B, Apto 32"
+}
+
+{
+  "nome": "Ricardo Santos",
+  "email": "ricardo.santos@megacode.io",
+  "senha": "TesteFort3#2024",
+  "cpf": "987.654.321-00",
+  "rg": "22.334.556-7",
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "bairro": "Savassi",
+  "numero": "450",
+  "cep": "30140-070",
+  "complemento": "Cobertura 2"
+}
+
+{
+  "nome": "Mariana Ribeiro",
+  "email": "mariana.rib@cloudworks.dev",
+  "senha": "MariPwd@778",
+  "cpf": "159.753.486-20",
+  "rg": "11.222.333-4",
+  "uf": "PR",
+  "cidade": "Curitiba",
+  "bairro": "Água Verde",
+  "numero": "88",
+  "cep": "80240-230",
+  "complemento": "Fundos"
+}
+
+{
+  "nome": "Felipe Araújo",
+  "email": "felipe.araujo@datamaster.co",
+  "senha": "Felipe#222!",
+  "cpf": "741.852.963-00",
+  "rg": "33.444.555-6",
+  "uf": "RS",
+  "cidade": "Porto Alegre",
+  "bairro": "Moinhos de Vento",
+  "numero": "999",
+  "cep": "90520-003",
+  "complemento": "Apto 401"
+}
+
+{
+  "nome": "Luana Costa",
+  "email": "luana.costa@infobridge.com",
+  "senha": "CostaLuana*887",
+  "cpf": "321.654.987-33",
+  "rg": "77.888.999-3",
+  "uf": "BA",
+  "cidade": "Salvador",
+  "bairro": "Pituba",
+  "numero": "1120",
+  "cep": "41830-500",
+  "complemento": "Sala 03"
+}
+
